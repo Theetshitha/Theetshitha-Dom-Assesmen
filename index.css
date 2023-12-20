@@ -1,0 +1,156 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%; 
+    height: 97.5vh; 
+    background-image: linear-gradient( to left, #451ad3, #7b67c3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.inner{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 2px 0px 20px 3px;
+        width: 800px;
+}
+
+i{
+    font-size: larger;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+.inner1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 20px 10px 50px;
+    gap: 35px;
+    width: 35%;
+    line-height: 0;
+
+}
+.line{
+    height: 410px;
+    width: 1px;
+    max-width: 2%;
+    background-color: black;
+}
+.inner2{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 290px;
+    width: 50%;
+    padding: 15px 20px 30px 0px;
+    line-height: 0px;
+}
+.inner2-1{
+    display: flex;
+    justify-content:space-between;
+    gap: 70px;
+    align-items: center;
+    width: 80%;
+   
+}
+.line2{
+width: 100%;
+background-color: rgba(0, 0, 0, 0.316);
+height: 2px;
+}
+label{
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+input{
+    border: none;
+    border-bottom:1px solid black;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+button{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, #008cff,#451ad3);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+p:first-child{
+    color: rgb(218, 10, 3);
+}
+p:last-child{
+    color: rgb(214, 132, 194);
+}
+p:nth-child(even){
+    color: rgb(12, 24, 1);
+}
+ p:nth-child(odd){ 
+    color: rgb(6, 105, 138);
+}
+p:nth-child(3n-2){
+    color: rgb(253, 139, 8);
+}
+.para{
+font-style: italic;
+    background-image: linear-gradient(rgb(250, 227, 231),white,rgb(253, 154, 253));
+} */
