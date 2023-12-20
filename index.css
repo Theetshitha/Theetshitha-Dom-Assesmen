@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
 body{
+    font-family: 'Varela Round', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +28,7 @@ body{
         width: 800px;
 }
 
-i{
+#i1{
     font-size: larger;
 }
 h2{
@@ -35,6 +36,7 @@ h2{
     color: white;
     font-weight: bold;
     padding: 20px;
+    font-size: 35px;
 }
 .inner1{
     
@@ -54,32 +56,35 @@ h2{
     background-color: black;
 }
 .inner2{
+   
     display: flex;
     justify-content:space-between;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 290px;
     width: 50%;
     padding: 15px 20px 30px 0px;
     line-height: 0px;
+   
 }
 .inner2-1{
+    
     display: flex;
     justify-content:space-between;
     gap: 70px;
     align-items: center;
+    max-height: 300px;
     width: 80%;
+    padding: 10px;
+   margin-top: -180px;
+   position:sticky;
+   line-height: 0px;
+   border-bottom: 1px solid black;
    
 }
-.line2{
-width: 100%;
-background-color: rgba(0, 0, 0, 0.316);
-height: 2px;
-}
 label{
+    font-size: 20px;
     font-weight: bold;
-    letter-spacing: 1px;
-    word-spacing: 3px;
+   
 }
 .amount{
     display: flex;
@@ -94,63 +99,129 @@ input{
     letter-spacing: 1px;
 }
 
-button{
-    margin-top: 40px;
-    padding: 10px;
+#btn{
+    /* margin-top: 40px; */
+    padding: 5px;
     border-radius: 5px;
     border: none;
     background-image: linear-gradient(to right, #008cff,#451ad3);
     color: white;
-    font-weight: bold;
-    letter-spacing: 1px;
-    word-spacing: 3px;
+
+    font-size: 20px;
+}
+.inner3{
+    margin-bottom: -30px;
+    position: sticky;
+    max-width:400px;
+    width: 380px;
+    max-height: 150px;
+    overflow: auto;
+   
+
+}
+.inner3-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 340px;
+}
+#c2:nth-child(even){ 
+   background-color: white;
+
+}
+#c-div:nth-child(odd){
+    background-color:rgba(99, 83, 159, 0.3);
+
+}
+#c-div:nth-child(even){
+    background-color:white
+
+}
+/* .c2:nth-child(odd){ 
+    background-color:rgba(99, 83, 159, 0.3);
+ 
+ } */
+
+
+ 
+#c2{
+   
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    height: 30px;
+}
+.c-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+    width: 300px;
+    height: 30px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+
+.l3{
+    display: none;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-p:first-child{
-    color: rgb(218, 10, 3);
+.lbl1{
+font-size: 15px;
+display: block;
 }
-p:last-child{
-    color: rgb(214, 132, 194);
+
+.lbl2{
+    display: none;
 }
-p:nth-child(even){
-    color: rgb(12, 24, 1);
+
+.db1{
+    display:none;
 }
- p:nth-child(odd){ 
-    color: rgb(6, 105, 138);
+.db2{
+    display: block;
 }
-p:nth-child(3n-2){
-    color: rgb(253, 139, 8);
+#db{
+font-size: large;
+height: 20px;
 }
-.para{
-font-style: italic;
-    background-image: linear-gradient(rgb(250, 227, 231),white,rgb(253, 154, 253));
-} */
+.res{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 285px;
+    max-height: 150px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.inner4{
+   
+    display: none;
+    max-width:400px;
+    margin-bottom: -210px;
+    position: sticky;
+    border-top: 1px solid black;
+  
+}
+
+
+.res1{
+    display: block;
+}
+.res2{
+    display: none;
+}
